@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "serve": "npm run build && npx http-server"
+    "serve": "npx http-server"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

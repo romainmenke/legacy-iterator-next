@@ -2340,6 +2340,7 @@ var URLSearchParamsIterator = createIteratorConstructor(function Iterator(params
     kind: kind
   });
 }, 'Iterator', function next() {
+    console.log('URLSearchParam Iterator next called');
   var state = getInternalIteratorState(this);
   var kind = state.kind;
   var step = state.iterator.next();
